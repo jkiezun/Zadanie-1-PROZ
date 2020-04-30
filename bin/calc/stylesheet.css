@@ -1,0 +1,28 @@
+.text-field, .button
+ {
+	-fx-background-color: black; 
+   -fx-text-fill: green; 
+   -fx-font-size: 30px;
+   -fx-border-style:solid;
+   -fx-border-color:green;
+  
+}
+.button:hover {
+	-fx-background-color:gray;
+	-fx-cursor: hand;
+}
+#clrButton:hover, #allClrButton:hover {
+	-fx-background-color:orange;
+}
+#equalsButton:hover {
+	-fx-background-color:green;
+	-fx-text-fill: black; 
+}
+
+#divButton:hover, #mulButton:hover, #plusButton:hover, #minusButton:hover {
+	-fx-background-color:purple;
+}
+
+#factorialButton:hover, #sqrtButton:hover, #squareButton:hover {
+	-fx-background-color:blue;
+}
